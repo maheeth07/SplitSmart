@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'split-smart-backend-production.up.railway.app/api';
 
 /**
  * Custom fetch wrapper that automatically appends auth tokens and edge-case simulation headers.
