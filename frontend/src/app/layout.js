@@ -2,7 +2,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "../hooks/useAuth";
 import Navbar from "../components/Navbar";
-import SimulationController from "../components/SimulationController";
 import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -49,8 +48,6 @@ export default function RootLayout({ children }) {
           />
           {/* Main Top Header Navigation */}
           <Navbar />
-          {/* Floating Edge-Case Simulation Hub */}
-          <SimulationController />
           {/* Viewport Content */}
           <main className="flex-grow flex flex-col pt-4">
             {children}

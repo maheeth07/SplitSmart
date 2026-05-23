@@ -95,24 +95,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Trust check banner */}
-      <section className="bg-slate-900 text-white w-full py-6 mt-12 select-none">
-        <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 text-xs font-semibold text-slate-400">
-          <div className="flex items-center gap-2">
-            <CheckCircle2 size={16} className="text-emerald-500" />
-            <span>Secure Password Salting & JWT Authentication</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <CheckCircle2 size={16} className="text-emerald-500" />
-            <span>Full-stack MVC Architecture with MongoDB</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <CheckCircle2 size={16} className="text-emerald-500" />
-            <span>Dynamic Responsive UI (Desktop & Mobile)</span>
-          </div>
-        </div>
-      </section>
-
     </div>
   );
 }
